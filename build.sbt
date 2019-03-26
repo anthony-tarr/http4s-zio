@@ -1,14 +1,14 @@
 ThisBuild / scalaVersion     := "2.12.8"
 ThisBuild / version          := "0.1.0-SNAPSHOT"
 ThisBuild / organization     := "com.example"
-ThisBuild / organizationName := "vocabulary"
+ThisBuild / organizationName := "http4szio"
 
 val http4sVersion = "0.20.0-M7"
 val scalazZioVersion = "1.0-RC1"
 
 lazy val root = (project in file("."))
   .settings(
-    name := "http4s-zio",
+    name := "http4szio",
     libraryDependencies += "org.scalatest" %% "scalatest" % "3.0.5" % Test
   )
 

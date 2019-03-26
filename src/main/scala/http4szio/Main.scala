@@ -1,4 +1,4 @@
-package vocabulary
+package http4szio
 
 import cats.effect
 import cats.effect.{ExitCode, Timer}
@@ -9,7 +9,7 @@ import scalaz.zio.clock.Clock
 import scalaz.zio.duration.Duration
 import scalaz.zio.interop.catz._
 import scalaz.zio.{App, Task}
-import vocabulary.services.Example
+import http4szio.services.Example
 
 import scala.concurrent.duration.{FiniteDuration, NANOSECONDS, TimeUnit}
 import scala.util.Properties.envOrNone

@@ -1,4 +1,4 @@
-package vocabulary.services
+package http4szio.services
 
 import org.http4s._
 import org.http4s.dsl.impl.Root
