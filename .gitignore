@@ -19,6 +19,10 @@ tramp
 # flymake-mode
 *_flymake.*
 
+# metals
+.bloop
+.metals
+
 # eshell files
 /eshell/history
 /eshell/lastdir

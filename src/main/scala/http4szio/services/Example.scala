@@ -10,9 +10,8 @@ object Example {
   val service: HttpRoutes[Task] = HttpRoutes.of[Task] {
     case GET -> Root / "hello" / name =>
       OtherExample.test(name).map { name =>
-        Response[Task](Ok).withEntity(s"Hello $name")
+        Response(Ok).withEntity(s"Hello $name")
       }
-
   }
 }
 
